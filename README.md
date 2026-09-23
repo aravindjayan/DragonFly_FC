@@ -1,6 +1,6 @@
 # DragonFly Flight Controller
 
-DragonFly is an open hardware flight-controller PCB project. This repository contains the KiCad design files, the production fabrication package, and a photo of the assembled board.
+DragonFly is an open hardware flight-controller PCB project. This repository contains the KiCad design files and production fabrication package.
 
 ![Assembled DragonFly flight controller](Photos/dragonfly-board.jpg)
 
@@ -24,3 +24,4 @@ Open `KiCad/Source/dragonfly_v0_1.kicad_pro` in KiCad to work with the source de
 ## Revision notes
 
 The production files are from the V0.1 `withRibs` release. The original release notes describe it as adding an external rib frame for improved fabrication. Review electrical design, clearances, and fabrication outputs independently before manufacturing or flight use.
+
