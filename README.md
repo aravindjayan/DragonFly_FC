@@ -1,6 +1,8 @@
 # DragonFly Flight Controller
 
-DragonFly is an open hardware flight-controller PCB project. This repository contains the KiCad design files and production fabrication package.
+DragonFly Flight Controller is an open hardware, low-cost flight controller PCB and experimentation platform for UAV, drone, and embedded systems prototyping. This cost-optimised design uses a two-layer PCB, a budget-conscious bill of materials (BOM), and readily fabricated manufacturing files. Prototype boards were fabricated using the LionCircuits MII service.
+
+The KiCad design targets broad sensor compatibility: it supports most ST LSM6D-series IMUs, while the magnetometer footprint accommodates QMC5883, HMC5883, MMC5983, and IST8310 parts. This makes DragonFly a flexible platform for flight-control experiments, sensor evaluation, and affordable PCB prototyping.
 
 ![Assembled DragonFly flight controller](Photos/dragonfly-board.jpg)
 
